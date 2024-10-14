@@ -2,7 +2,7 @@ import {Container, Nav, Navbar}from 'react-bootstrap';
 
 export default function Menu() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+    <Navbar expand="lg" className={'${style.navGradiente} px-3 my-0 border-2 border border-success rounded rounded-3'}>
       <Container>
         <Navbar.Brand href="#/">6B</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
